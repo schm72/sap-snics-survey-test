@@ -1,0 +1,16 @@
+<mvc:View xmlns:mvc="sap.ui.core.mvc" xmlns:m="sap.m" controllerName="generated.app.controller.page_1">
+	<m:Page id="page1Title" showHeader="true" title="Welcome to the Survey" showFooter="true" showNavButton="false">
+		<m:content>
+			<m:Image src="/webapp/resources/logo-springernature2.png" width="30%" densityAware="false" class="centerImage"/>
+			<m:Title text="&gt;Survey Description" titleStyle="H2" width="100%" textAlign="Begin" visible="true"/>
+			<m:Text text="\n\n\n some explanation \n\n\n\n" width="100%" maxLines="50" wrapping="true" textAlign="Center" textDirection="Inherit"/>
+		</m:content>
+		<m:footer>
+			<m:Bar design="Auto">
+				<m:contentRight>
+					<m:Button text="Start the Survey" type="Accept" icon="sap-icon://restart" iconFirst="true" width="30%" enabled="true" visible="true" iconDensityAware="false" press="_onButtonPress"/>
+				</m:contentRight>
+			</m:Bar>
+		</m:footer>
+	</m:Page>
+</mvc:View>

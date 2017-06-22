@@ -1,0 +1,17 @@
+<mvc:View xmlns:mvc="sap.ui.core.mvc" controllerName="generated.app.controller.page_2" xmlns:m="sap.m"
+		 xmlns:html="http://www.w3.org/1999/xhtml">
+	<m:Page id="page2Title" showHeader="true" title="Survey PoC" showFooter="true" showNavButton="false">
+		<m:content>
+			<html:div id="surveyElement"></html:div>
+		</m:content>
+		<m:footer>
+			<m:Bar design="Auto" id="finishSurvey" visible="false" >
+				<m:contentRight>
+					<m:Button text="See Results" type="Accept" icon="sap-icon://media-forward" 
+					    iconFirst="true" width="30%" enabled="true" visible="true"
+						iconDensityAware="false" press="_onButtonPress" class="button_complete"  />
+				</m:contentRight>
+			</m:Bar>
+		</m:footer>
+	</m:Page>
+</mvc:View>

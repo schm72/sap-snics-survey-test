@@ -1,0 +1,22 @@
+<mvc:View xmlns:mvc="sap.ui.core.mvc" controllerName="generated.app.controller.page_3" 
+			xmlns:m="sap.m" xmlns:f="sap.ui.layout.form" xmlns:html="http://www.w3.org/1999/xhtml">
+	<m:Page id="page3Title" showHeader="true" title="Result View" showFooter="true" showNavButton="false">
+		<m:content>
+			<html:code class="prettyprint" id="resultView"></html:code>
+			<f:SimpleForm id="containerSurveyID">
+				<f:content>
+					<m:Label text="Survey will be processed - ID" />
+					<m:Text id="surveyID" text="" />
+				</f:content>
+			</f:SimpleForm>
+		</m:content>
+		<m:footer>
+			<m:Bar design="Auto">
+				<m:contentRight>
+					<m:Button text="Start Again" type="Accept" icon="sap-icon://restart" iconFirst="true" width="30%" enabled="true" visible="true"
+						iconDensityAware="false" press="_onButtonPress1"/>
+				</m:contentRight>
+			</m:Bar>
+		</m:footer>
+	</m:Page>
+</mvc:View>
